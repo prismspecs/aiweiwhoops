@@ -1,0 +1,27 @@
+body {
+	background-color:#000000;
+	color:#bb1111;
+	font-family: 'Varela Round', sans-serif;
+	overflow: hidden;
+}
+
+#what {
+	color:#ffffff;
+	position:absolute;
+	top:5.5%;
+	right:2%;
+}
+
+#what img {
+	width:50px;
+}
+
+a {
+	color:#11bb11;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:hover {
+	text-decoration: underline;
+}

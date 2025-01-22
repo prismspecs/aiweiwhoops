@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="ai wei wei, grayson earle, urn, break, net art">
+  <meta name="description"
+    content="Care to break some more of Ai Weiwei's urns? See how much property damage you can rack up.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ai Wei Whoops!</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+
+  <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script src="js/processing.js" type="text/javascript"></script>
+
+  <link rel="author" href="//graysonearle.com/about.php">
+
+  <link rel="image_src" href="https://graysonearle.com/aiweiwhoops/share.png" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WD8WFHJHC4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-WD8WFHJHC4');
+  </script>
+
+</head>
+
+<body>
+
+  <canvas data-processing-sources="whoops.pde" id="sketch"></canvas>
+
+  <div id="what">
+    <a href="what.html"><img src="what.png"></a>
+    <a href="#"
+      onclick="javascript:popUp('https://twitter.com/intent/tweet?text=Smash your own million dollar %23AiWeiWei urn!&url=https://graysonearle.com/aiweiwhoops', 704, 260)"><img
+        src="twitter.png"></a>
+  </div>
+
+  <script>
+    function popUp(url, _width, _height) {
+      newwindow = window.open(url, 'Sharing is Caring!', 'height=' + _height + ',width=' + _width);
+      if (window.focus) {
+        newwindow.focus()
+      }
+      return false;
+    }
+  </script>
+</body>
+
+</html>
